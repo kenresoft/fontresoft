@@ -1,0 +1,56 @@
+name: fontresoft
+description: FontResoft is a flutter font package developed by Kenresoft for use in any flutter project. 
+  It contain different beautiful fonts for building nice, eye-catchy flutter apps.
+version: 0.0.1
+# Ensures the package is published to https://dart-packages.example.com
+publish_to: #https://dart-packages.example.com
+homepage:
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  fonts:
+    - family: Inconsolata
+      fonts:
+        - asset: packages/fontresoft/fonts/Inconsolata-regular.ttf
+    - family: Inter
+      fonts:
+        - asset: packages/fontresoft/fonts/Inter-regular.ttf
+    - family: Lato
+      fonts:
+        - asset: packages/fontresoft/fonts/Lato-regular.ttf
+    - family: Oswald
+      fonts:
+        - asset: packages/fontresoft/fonts/Oswald-regular.ttf
+    - family: Poppins
+      fonts:
+        - asset: packages/fontresoft/fonts/Poppins-regular.ttf
+    - family: Quicksand
+      fonts:
+        - asset: packages/fontresoft/fonts/Quicksand-regular.ttf
+    - family: RobotoCondensed
+      fonts:
+        - asset: packages/fontresoft/fonts/Roboto-Condensed-regular.ttf
+    - family: ShantellSans
+      fonts:
+        - asset: packages/fontresoft/fonts/Shantell-Sans-regular.ttf
+    - family: SourceSans
+      fonts:
+        - asset: packages/fontresoft/fonts/Source-Sans-Pro-regular.ttf
+
