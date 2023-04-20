@@ -25,32 +25,65 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
-  fonts:
+
+
+#  fonts:
+#    - family: Inconsolata
+#      fonts:
+#        - asset: packages/fontresoft/fonts/Inconsolata/Inconsolata-regular.ttf
+#    - family: Inter
+#      fonts:
+#        - asset: packages/fontresoft/fonts/Inter/Inter-regular.ttf
+#    - family: Lato
+#      fonts:
+#        - asset: packages/fontresoft/fonts/Lato/Lato-regular.ttf
+#    - family: Oswald
+#      fonts:
+#        - asset: packages/fontresoft/fonts/Oswald/Oswald-regular.ttf
+#    - family: Poppins
+#      fonts:
+#        - asset: packages/fontresoft/fonts/Poppins/Poppins-regular.ttf
+#    - family: Quicksand
+#      fonts:
+#        - asset: packages/fontresoft/fonts/Quicksand/Quicksand-regular.ttf
+#    - family: RobotoCondensed
+#      fonts:
+#        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-regular.ttf
+#    - family: ShantellSans
+#      fonts:
+#        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-regular.ttf
+#    - family: SourceSans
+#      fonts:
+#        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-regular.ttf
+
+    fonts:
     - family: Inconsolata
       fonts:
-        - asset: packages/fontresoft/fonts/Inconsolata-regular.ttf
+        - asset: packages/fontresoft/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf
     - family: Inter
       fonts:
-        - asset: packages/fontresoft/fonts/Inter-regular.ttf
+        - asset: packages/fontresoft/fonts/Inter/Inter-VariableFont_slnt,wght.ttf
     - family: Lato
       fonts:
-        - asset: packages/fontresoft/fonts/Lato-regular.ttf
+        - asset: packages/fontresoft/fonts/Lato/Lato-regular.ttf
     - family: Oswald
       fonts:
-        - asset: packages/fontresoft/fonts/Oswald-regular.ttf
+        - asset: packages/fontresoft/fonts/Oswald/Oswald-VariableFont_wght.ttf
     - family: Poppins
       fonts:
-        - asset: packages/fontresoft/fonts/Poppins-regular.ttf
+        - asset: packages/fontresoft/fonts/Poppins/Poppins-regular.ttf
     - family: Quicksand
       fonts:
-        - asset: packages/fontresoft/fonts/Quicksand-regular.ttf
+        - asset: packages/fontresoft/fonts/Quicksand/Quicksand-VariableFont_wght.ttf
     - family: RobotoCondensed
       fonts:
-        - asset: packages/fontresoft/fonts/Roboto-Condensed-regular.ttf
+        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-regular.ttf
     - family: ShantellSans
       fonts:
-        - asset: packages/fontresoft/fonts/Shantell-Sans-regular.ttf
+        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf
+        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf
+          style: italic
     - family: SourceSans
       fonts:
-        - asset: packages/fontresoft/fonts/Source-Sans-Pro-regular.ttf
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-regular.ttf
 
