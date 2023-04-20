@@ -59,29 +59,29 @@ flutter:
     fonts:
     - family: Inconsolata
       fonts:
-        - asset: packages/fontresoft/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf
+        - asset: packages/fontresoft/fonts/Inconsolata/Inconsolata-VariableFont.ttf
     - family: Inter
       fonts:
-        - asset: packages/fontresoft/fonts/Inter/Inter-VariableFont_slnt,wght.ttf
+        - asset: packages/fontresoft/fonts/Inter/Inter-VariableFont.ttf
     - family: Lato
       fonts:
         - asset: packages/fontresoft/fonts/Lato/Lato-regular.ttf
     - family: Oswald
       fonts:
-        - asset: packages/fontresoft/fonts/Oswald/Oswald-VariableFont_wght.ttf
+        - asset: packages/fontresoft/fonts/Oswald/Oswald-VariableFont.ttf
     - family: Poppins
       fonts:
         - asset: packages/fontresoft/fonts/Poppins/Poppins-regular.ttf
     - family: Quicksand
       fonts:
-        - asset: packages/fontresoft/fonts/Quicksand/Quicksand-VariableFont_wght.ttf
+        - asset: packages/fontresoft/fonts/Quicksand/Quicksand-VariableFont.ttf
     - family: RobotoCondensed
       fonts:
         - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-regular.ttf
     - family: ShantellSans
       fonts:
-        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf
-        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf
+        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-VariableFont.ttf
+        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-Italic-VariableFont.ttf
           style: italic
     - family: SourceSans
       fonts:
