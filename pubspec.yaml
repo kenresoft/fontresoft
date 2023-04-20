@@ -74,9 +74,9 @@ flutter:
         - asset: packages/fontresoft/fonts/Poppins/Poppins-regular.ttf
         - asset: packages/fontresoft/fonts/Poppins/Poppins-Italic.ttf
           style: italic
-        - asset: packages/fontresoft/fonts/Poppins/Poppins-Bold.ttf
-          weight: 900
         - asset: packages/fontresoft/fonts/Poppins/Poppins-ExtraBold.ttf
+          weight: 900
+        - asset: packages/fontresoft/fonts/Poppins/Poppins-Bold.ttf
           weight: 800
         - asset: packages/fontresoft/fonts/Poppins/Poppins-SemiBold.ttf
           weight: 700
