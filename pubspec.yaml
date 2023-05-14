@@ -61,7 +61,21 @@ flutter:
 # Inconsolata
     - family: Inconsolata
       fonts:
-        - asset: packages/fontresoft/fonts/Inconsolata/Inconsolata-VariableFont.ttf
+        - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-Regular.ttf
+        - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-SemiBold.ttf
+          weight: 600
+        - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-Light.ttf
+          weight: 300
+        - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-Medium.ttf
+          weight: 500
+        - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-Bold.ttf
+          weight: 700
+        - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-Black.ttf
+          weight: 900
+        - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-ExtraLight.ttf
+          weight: 200
+        - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-ExtraBold.ttf
+          weight: 800
 
 # Inter
     - family: Inter
