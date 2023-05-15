@@ -1,10 +1,10 @@
 name: fontresoft
-description: FontResoft is a flutter font package developed by Kenresoft for use in any flutter project. 
-  It contain different beautiful fonts for building nice, eye-catchy flutter apps.
-version: 0.0.1
+description: 'FontResoft is a flutter font package compiled and arranged by us for use in any flutter project.
+  It contains different beautiful fonts for building nice, eye-catchy flutter apps.'
+version: '0.0.1'
 # Ensures the package is published to https://dart-packages.example.com
-publish_to: #https://dart-packages.example.com
-homepage:
+publish_to: ''#https://dart-packages.example.com
+homepage: ''
 
 environment:
   sdk: '>=2.19.0 <3.0.0'
@@ -25,43 +25,13 @@ dev_dependencies:
 # The following section is specific to Flutter packages.
 flutter:
 
+  fonts:
 
-
-#  fonts:
-#    - family: Inconsolata
-#      fonts:
-#        - asset: packages/fontresoft/fonts/Inconsolata/Inconsolata-regular.ttf
-#    - family: Inter
-#      fonts:
-#        - asset: packages/fontresoft/fonts/Inter/Inter-regular.ttf
-#    - family: Lato
-#      fonts:
-#        - asset: packages/fontresoft/fonts/Lato/Lato-regular.ttf
-#    - family: Oswald
-#      fonts:
-#        - asset: packages/fontresoft/fonts/Oswald/Oswald-regular.ttf
-#    - family: Poppins
-#      fonts:
-#        - asset: packages/fontresoft/fonts/Poppins/Poppins-regular.ttf
-#    - family: Quicksand
-#      fonts:
-#        - asset: packages/fontresoft/fonts/Quicksand/Quicksand-regular.ttf
-#    - family: RobotoCondensed
-#      fonts:
-#        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-regular.ttf
-#    - family: ShantellSans
-#      fonts:
-#        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-regular.ttf
-#    - family: SourceSans
-#      fonts:
-#        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-regular.ttf
-
-    fonts:
-
-# Inconsolata
+    # Inconsolata
     - family: Inconsolata
       fonts:
         - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-Regular.ttf
+          weight: 400
         - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-SemiBold.ttf
           weight: 600
         - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-Light.ttf
@@ -77,15 +47,35 @@ flutter:
         - asset: packages/fontresoft/fonts/Inconsolata/static/Inconsolata/Inconsolata-ExtraBold.ttf
           weight: 800
 
-# Inter
+    # Inter
     - family: Inter
       fonts:
-        - asset: packages/fontresoft/fonts/Inter/Inter-VariableFont.ttf
+        - asset: packages/fontresoft/fonts/Inter/static/Inter-Black.ttf
+          weight: 900
+        - asset: packages/fontresoft/fonts/Inter/static/Inter-Bold.ttf
+          weight: 700
+        - asset: packages/fontresoft/fonts/Inter/static/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: packages/fontresoft/fonts/Inter/static/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: packages/fontresoft/fonts/Inter/static/Inter-Light.ttf
+          weight: 300
+        - asset: packages/fontresoft/fonts/Inter/static/Inter-Medium.ttf
+          weight: 500
+        - asset: packages/fontresoft/fonts/Inter/static/Inter-Regular.ttf
+          weight: 400
+        - asset: packages/fontresoft/fonts/Inter/static/Inter-SemiBold.ttf
+          weight: 600
+        - asset: packages/fontresoft/fonts/Inter/static/Inter-Thin.ttf
+          weight: 100
 
-# Lato
+
+    # Lato
     - family: Lato
       fonts:
-        - asset: packages/fontresoft/fonts/Lato/Lato-regular.ttf
+        - asset: packages/fontresoft/fonts/Lato/Lato-Regular.ttf
+          weight: 400
+          style: normal
         - asset: packages/fontresoft/fonts/Lato/Lato-Italic.ttf
           style: italic
         - asset: packages/fontresoft/fonts/Lato/Lato-Black.ttf
@@ -98,15 +88,29 @@ flutter:
           weight: 100
 
 
-# Oswald
+    # Oswald
     - family: Oswald
       fonts:
-        - asset: packages/fontresoft/fonts/Oswald/Oswald-VariableFont.ttf
+        - asset: packages/fontresoft/fonts/Oswald/static/Oswald-Bold.ttf
+          weight: 700
+        - asset: packages/fontresoft/fonts/Oswald/static/Oswald-ExtraLight.ttf
+          weight: 200
+        - asset: packages/fontresoft/fonts/Oswald/static/Oswald-Light.ttf
+          weight: 300
+        - asset: packages/fontresoft/fonts/Oswald/static/Oswald-Medium.ttf
+          weight: 500
+        - asset: packages/fontresoft/fonts/Oswald/static/Oswald-Regular.ttf
+          weight: 400
+        - asset: packages/fontresoft/fonts/Oswald/static/Oswald-SemiBold.ttf
+          weight: 600
 
-# poppins
+
+    # poppins
     - family: Poppins
       fonts:
-        - asset: packages/fontresoft/fonts/Poppins/Poppins-regular.ttf
+        - asset: packages/fontresoft/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+          style: normal
         - asset: packages/fontresoft/fonts/Poppins/Poppins-Italic.ttf
           style: italic
         - asset: packages/fontresoft/fonts/Poppins/Poppins-Black.ttf
@@ -126,25 +130,117 @@ flutter:
         - asset: packages/fontresoft/fonts/Poppins/Poppins-Thin.ttf
           weight: 100
 
-#  Quicksand
+    #  Quicksand
     - family: Quicksand
       fonts:
-        - asset: packages/fontresoft/fonts/Quicksand/Quicksand-VariableFont.ttf
+        - asset: packages/fontresoft/fonts/Quicksand/static/Quicksand-Bold.ttf
+          weight: 700
+        - asset: packages/fontresoft/fonts/Quicksand/static/Quicksand-Light.ttf
+          weight: 300
+        - asset: packages/fontresoft/fonts/Quicksand/static/Quicksand-Medium.ttf
+          weight: 500
+        - asset: packages/fontresoft/fonts/Quicksand/static/Quicksand-Regular.ttf
+          weight: 400
+        - asset: packages/fontresoft/fonts/Quicksand/static/Quicksand-SemiBold.ttf
+          weight: 600
 
-# Roboto
+    # Roboto
     - family: RobotoCondensed
       fonts:
-        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-regular.ttf
-
-# ShantellSans
-    - family: ShantellSans
-      fonts:
-        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-VariableFont.ttf
-        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-Italic-VariableFont.ttf
+        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-Regular.ttf
+          weight: 400
+          style: normal
+        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-Bold.ttf
+          weight: 700
+        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-Italic.ttf
+          style: italic
+        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-Light.ttf
+          weight: 300
+          style: normal
+        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-LightItalic.ttf
+          weight: 300
           style: italic
 
-# SourceSans
-    - family: SourceSans
+    # ShantellSans
+    - family: ShantellSans
       fonts:
-        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-regular.ttf
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-Bold.ttf
+          weight: 700
+          style: normal
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-ExtraBold.ttf
+          weight: 800
+          style: normal
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-Light.ttf
+          weight: 300
+          style: normal
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-Medium.ttf
+          weight: 500
+          style: normal
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-Regular.ttf
+          weight: 400
+          style: normal
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-SemiBold.ttf
+          weight: 600
+          style: normal
+        - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+
+    # SourceSans
+    - family: SourceSansPro
+      fonts:
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-Black.ttf
+          weight: 800
+          style: normal
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-BlackItalic.ttf
+          weight: 800
+          style: italic
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-Bold.ttf
+          weight: 700
+          style: normal
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf
+          weight: 200
+          style: normal
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-Light.ttf
+          weight: 300
+          style: normal
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-Regular.ttf
+          weight: 400
+          style: normal
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-SemiBold.ttf
+          weight: 600
+          style: normal
+        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
 
