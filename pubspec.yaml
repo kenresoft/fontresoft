@@ -1,7 +1,7 @@
 name: fontresoft
-description: FontResoft is a flutter font package developed by Kenresoft for use in any flutter project.
-  It contain different beautiful fonts for building nice, eye-catchy flutter apps.
-version: 0.0.1
+description: 'FontResoft is a flutter font package compiled and arranged by us for use in any flutter project.
+  It contains different beautiful fonts for building nice, eye-catchy flutter apps.'
+version: '0.0.1'
 # Ensures the package is published to https://dart-packages.example.com
 publish_to: ''#https://dart-packages.example.com
 homepage: ''
@@ -24,36 +24,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
-
-
-  #  fonts:
-  #    - family: Inconsolata
-  #      fonts:
-  #        - asset: packages/fontresoft/fonts/Inconsolata/Inconsolata-regular.ttf
-  #    - family: Inter
-  #      fonts:
-  #        - asset: packages/fontresoft/fonts/Inter/Inter-regular.ttf
-  #    - family: Lato
-  #      fonts:
-  #        - asset: packages/fontresoft/fonts/Lato/Lato-regular.ttf
-  #    - family: Oswald
-  #      fonts:
-  #        - asset: packages/fontresoft/fonts/Oswald/Oswald-regular.ttf
-  #    - family: Poppins
-  #      fonts:
-  #        - asset: packages/fontresoft/fonts/Poppins/Poppins-regular.ttf
-  #    - family: Quicksand
-  #      fonts:
-  #        - asset: packages/fontresoft/fonts/Quicksand/Quicksand-regular.ttf
-  #    - family: RobotoCondensed
-  #      fonts:
-  #        - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-regular.ttf
-  #    - family: ShantellSans
-  #      fonts:
-  #        - asset: packages/fontresoft/fonts/ShantellSans/ShantellSans-regular.ttf
-  #    - family: SourceSans
-  #      fonts:
-  #        - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-regular.ttf
 
   fonts:
 
@@ -105,6 +75,7 @@ flutter:
       fonts:
         - asset: packages/fontresoft/fonts/Lato/Lato-Regular.ttf
           weight: 400
+          style: normal
         - asset: packages/fontresoft/fonts/Lato/Lato-Italic.ttf
           style: italic
         - asset: packages/fontresoft/fonts/Lato/Lato-Black.ttf
@@ -139,6 +110,7 @@ flutter:
       fonts:
         - asset: packages/fontresoft/fonts/Poppins/Poppins-Regular.ttf
           weight: 400
+          style: normal
         - asset: packages/fontresoft/fonts/Poppins/Poppins-Italic.ttf
           style: italic
         - asset: packages/fontresoft/fonts/Poppins/Poppins-Black.ttf
@@ -177,6 +149,7 @@ flutter:
       fonts:
         - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-Regular.ttf
           weight: 400
+          style: normal
         - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-Bold.ttf
           weight: 700
         - asset: packages/fontresoft/fonts/RobotoCondensed/RobotoCondensed-BoldItalic.ttf
@@ -202,6 +175,7 @@ flutter:
           style: italic
         - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-ExtraBold.ttf
           weight: 800
+          style: normal
         - asset: packages/fontresoft/fonts/ShantellSans/static/ShantellSans-ExtraBoldItalic.ttf
           weight: 800
           style: italic
@@ -231,7 +205,7 @@ flutter:
           style: italic
 
     # SourceSans
-    - family: SourceSans
+    - family: SourceSansPro
       fonts:
         - asset: packages/fontresoft/fonts/SourceSansPro/SourceSansPro-Black.ttf
           weight: 800
