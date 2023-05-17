@@ -1,39 +1,51 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-FontResoft is a flutter font package developed by Kenresoft for use in any flutter project. 
-It contain different beautiful fonts for building nice, eye-catchy flutter apps.
+FontResoft is a flutter font package compiled and arranged by us for use in any flutter project.
+It contains different beautiful fonts for building nice, eye-catchy flutter apps.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Currently 9 font families are defined in this library
+
+1. inconsolata
+2. inter
+3. lato
+4. oswald
+5. poppins
+6. quicksand
+7. robotoCondensed
+8. shantellSans
+9. sourceSans
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use as a library, add the dependency in your pubspec.yaml file, thus:
+
+```yaml
+fontresoft:
+    git:
+      url: git@github.com:kenresoft/fontresoft.git
+      ref: release
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+An example of how to use this in the main.dart file:
 
 ```dart
-const like = 'sample';
+ThemeData(
+    useMaterial3: true,
+    brightness: Brightness.light,
+    colorSchemeSeed: Colors.purpleAccent,
+    fontFamily: FontResoft.poppins,
+    package: FontResoft.package,
+    highlightColor: Colors.transparent,
+    splashColor: Colors.transparent,
+    typography: ...,
+    textTheme: ...,
+),
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+In the future, we plan to provide support for additional fonts, making it even simpler for other developers to swiftly adopt our work. 
+If you think we should add other typefaces, please let us know. 
+We created this package to alleviate some of the burden that developers have when it comes to organizing the fonts by weights and styles.
