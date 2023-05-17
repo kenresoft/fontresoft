@@ -75,11 +75,11 @@ class Font {
     return st ??= const TextStyle().copyWith(fontFamily: FontResoft.sourceSansPro, package: FontResoft.package);
   }
 
-  static List<E> generate<E>(int count, E Function(int index) item) {
+/*  static List<E> generate<E>(int count, E Function(int index) item) {
     List<E> list = [];
     for (var i = 0; i <= count; ++i) {
       list.add(item(i));
     }
     return list;
-  }
+  }*/
 }
