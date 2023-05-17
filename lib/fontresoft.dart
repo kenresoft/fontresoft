@@ -16,8 +16,9 @@ enum ResoftStyle {
 
 class FontResoft {
   static String package = 'fontresoft';
+
   //Fonts
-  static const String sansPro = "SansPro";
+  static const String sourceSansPro = "SourceSansPro";
   static const String poppins = "Poppins";
   static const String shantellSans = "ShantellSans";
   static const String robotoCondensed = "RobotoCondensed";
@@ -30,55 +31,55 @@ class FontResoft {
 
 class Font {
   static TextStyle inconsolata({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: 'Inconsolata', package: 'fontresoft');
-    return st ??= const TextStyle().copyWith(fontFamily: 'Inconsolata', package: 'fontresoft');
+    var st = style?.copyWith(fontFamily: FontResoft.inconsolata, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.inconsolata, package: FontResoft.package);
   }
 
   static TextStyle inter({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: 'Inter', package: 'fontresoft');
-    return st ??= const TextStyle().copyWith(fontFamily: 'Inter', package: 'fontresoft');
+    var st = style?.copyWith(fontFamily: FontResoft.inter, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.inter, package: FontResoft.package);
   }
 
   static TextStyle lato({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: 'Lato', package: 'fontresoft');
-    return st ??= const TextStyle().copyWith(fontFamily: 'Lato', package: 'fontresoft');
+    var st = style?.copyWith(fontFamily: FontResoft.lato, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.lato, package: FontResoft.package);
   }
 
   static TextStyle oswald({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: 'Oswald', package: 'fontresoft');
-    return st ??= const TextStyle().copyWith(fontFamily: 'Oswald', package: 'fontresoft');
+    var st = style?.copyWith(fontFamily: FontResoft.oswald, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.oswald, package: FontResoft.package);
   }
 
   static TextStyle poppins({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: 'Poppins', package: 'fontresoft');
-    return st ??= const TextStyle().copyWith(fontFamily: 'Poppins', package: 'fontresoft');
+    var st = style?.copyWith(fontFamily: FontResoft.poppins, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.poppins, package: FontResoft.package);
   }
 
   static TextStyle quicksand({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: 'Quicksand', package: 'fontresoft');
-    return st ??= const TextStyle().copyWith(fontFamily: 'Quicksand', package: 'fontresoft');
+    var st = style?.copyWith(fontFamily: FontResoft.quicksand, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.quicksand, package: FontResoft.package);
   }
 
   static TextStyle robotoCondensed({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: 'RobotoCondensed', package: 'fontresoft');
-    return st ??= const TextStyle().copyWith(fontFamily: 'RobotoCondensed', package: 'fontresoft');
+    var st = style?.copyWith(fontFamily: FontResoft.robotoCondensed, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.robotoCondensed, package: FontResoft.package);
   }
 
   static TextStyle shantellSans({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: 'ShantellSans', package: 'fontresoft');
-    return st ??= const TextStyle().copyWith(fontFamily: 'ShantellSans', package: 'fontresoft');
+    var st = style?.copyWith(fontFamily: FontResoft.shantellSans, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.shantellSans, package: FontResoft.package);
   }
 
   static TextStyle sourceSans({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: 'SourceSans', package: 'fontresoft');
-    return st ??= const TextStyle().copyWith(fontFamily: 'SourceSans', package: 'fontresoft');
+    var st = style?.copyWith(fontFamily: FontResoft.sourceSansPro, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.sourceSansPro, package: FontResoft.package);
   }
 
-  static List<E> generate<E>(int count, E Function(int index) item) {
+/*  static List<E> generate<E>(int count, E Function(int index) item) {
     List<E> list = [];
     for (var i = 0; i <= count; ++i) {
       list.add(item(i));
     }
     return list;
-  }
+  }*/
 }
