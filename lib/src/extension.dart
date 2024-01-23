@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../fontresoft.dart';
-extension TextStyleExtension on Font {
+extension TextStyleExtension on TextStyle {
   String get getFont {
     switch (this) {
       case Font.inconsolata:
