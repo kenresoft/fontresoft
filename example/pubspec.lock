@@ -80,7 +80,7 @@ packages:
     description:
       path: "."
       ref: release
-      resolved-ref: "1ede2ed18ae835078823240288ccdf3d05536c7f"
+      resolved-ref: cc17c74a8bbdad78ee71171781636c3f82812bb5
       url: "git@github.com:kenresoft/fontresoft.git"
     source: git
     version: "0.0.1"
