@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:fontresoft/fontresoft.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,8 +19,13 @@ class MyApp extends StatelessWidget {
       ///debugShowMaterialGrid: true,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        brightness: Brightness.light,
+        colorSchemeSeed: Colors.purpleAccent,
+        fontFamily: FontResoft.poppins,
+        package: FontResoft.package,
+        highlightColor: Colors.transparent,
+        splashColor: Colors.transparent,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
@@ -36,6 +42,18 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  final List<TextStyle> list = [
+    Font.inconsolata(),
+    Font.inter(),
+    Font.lato(),
+    Font.oswald(),
+    Font.poppins(),
+    Font.quicksand(),
+    Font.robotoCondensed(),
+    Font.shantellSans(),
+    Font.sourceSans(),
+  ];
+
   @override
   Widget build(BuildContext context080840544) {
     return Scaffold(
@@ -56,12 +74,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   1,
                 ),
                 margin: const EdgeInsets.all(16),
-                child: const Center(
+                child: Center(
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('Sample Text', style: TextStyle(fontSize: 20)),
-                      Text('Sample Text', style: TextStyle(fontSize: 16)),
+                      Text(list[index].getFont, style: list[index].copyWith(fontSize: 20)),
+                      Text('Sample Text', style: list[index].copyWith(fontSize: 16, fontStyle: FontStyle.italic)),
                     ],
                   ),
                 ),
