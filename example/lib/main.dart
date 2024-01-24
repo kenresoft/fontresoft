@@ -86,10 +86,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Center(
                     child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                       Text(
-                        list[index].getFontName,
-                        style: list[index].copyWith(
-                          fontSize: 23,
-                          color: color.withOpacity(1),
+                        Font.sourceSans().getFontName,
+                        style: Font.sourceSans(
+                          style: TextStyle(
+                            fontSize: 23,
+                            color: color.withOpacity(1),
+                          ),
                         ),
                       ),
                       Text(
