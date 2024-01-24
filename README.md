@@ -39,9 +39,31 @@ ThemeData(
     package: FontResoft.package,
     highlightColor: Colors.transparent,
     splashColor: Colors.transparent,
-    typography: ...,
-    textTheme: ...,
-),
+);
+```
+
+An example of how to use in your dart code.
+
+```dart
+Text(
+  'Sample Text',
+  style: Font.sourceSans().copyWith(
+    fontSize: 23,
+    color: color.withOpacity(1),
+  ),
+);
+```
+
+```dart
+Text(
+  Font.sourceSans().getFontName,
+  style: Font.sourceSans(
+    style: TextStyle(
+      fontSize: 23,
+      color: color.withOpacity(1),
+    ),
+  ),
+)
 ```
 
 ## Additional information
