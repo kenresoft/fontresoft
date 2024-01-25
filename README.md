@@ -66,6 +66,28 @@ Text(
 )
 ```
 
+## Screenshots
+
+<div>
+  <img height="500" width="50%" alt="Screenshot 1" src="example/screenshots/Screenshot_1.png" title="Screenshot 1">
+  <p>Screenshot 1</p>
+</div>
+
+<div>
+  <img height="500" width="50%" alt="Screenshot 2" src="example/screenshots/Screenshot_2.png" title="Screenshot 2">
+  <p>Screenshot 2</p>
+</div>
+
+<div>
+  <img height="500" width="50%" alt="Screenshot 3" src="example/screenshots/Screenshot_3.png" title="Screenshot 3">
+  <p>Screenshot 3</p>
+</div>
+
+<!--div>
+<img height="500" width="50%" alt="Screenshot 3" src="example/screenshots/Screen_recording_1.gif" title="Screenshot 3">
+  <p>Screen Record</p>
+</div-->
+
 ## Additional information
 
 In the future, we plan to provide support for additional fonts, making it even simpler for other developers to swiftly adopt our work. 
