@@ -83,11 +83,6 @@ Text(
   <p>Screenshot 3</p>
 </div>
 
-<!--div>
-<img height="500" width="50%" alt="Screenshot 3" src="example/screenshots/Screen_recording_1.gif" title="Screenshot 3">
-  <p>Screen Record</p>
-</div-->
-
 ## Additional information
 
 In the future, we plan to provide support for additional fonts, making it even simpler for other developers to swiftly adopt our work. 
