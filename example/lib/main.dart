@@ -57,7 +57,11 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor: Colors.black87),
+      appBar: AppBar(
+        title: const Text('FontResoft Fonts'),
+        backgroundColor: Colors.black87,
+        centerTitle: true,
+      ),
       body: Center(
         child: ListView.builder(
           itemCount: list.length,
@@ -86,18 +90,24 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Center(
                     child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                       Text(
-                        Font.sourceSans().getFontName,
-                        style: Font.sourceSans(
-                          style: TextStyle(
-                            fontSize: 23,
-                            color: color.withOpacity(1),
-                          ),
+                        list[index].getFontName,
+                        style: list[index].copyWith(
+                          fontSize: 23,
+                          color: color.withOpacity(1),
                         ),
                       ),
                       Text(
                         '${list[index].fontFamily}',
                         style: list[index].copyWith(
                           fontSize: 20,
+                          color: color.withOpacity(0.5),
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                      Text(
+                        '$color',
+                        style: list[index].copyWith(
+                          fontSize: 16,
                           color: color.withOpacity(0.5),
                           fontStyle: FontStyle.italic,
                         ),
