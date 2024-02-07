@@ -1,32 +1,48 @@
-FontResoft is a flutter font package compiled and arranged by us for use in any flutter project.
-It contains different beautiful fonts for building nice, eye-catchy flutter apps.
+# FontResoft
 
-## Features
+[![pub package](https://img.shields.io/pub/v/fontresoft.svg?label=fontresoft&color=blue)](https://pub.dev/packages/fontresoft)
+[![pub points](https://img.shields.io/pub/points/fontresoft?logo=dart)](https://pub.dev/packages/fontresoft/score)
+[![popularity](https://img.shields.io/pub/popularity/fontresoft?logo=dart&color=yellow)](https://pub.dev/packages/fontresoft/score)
+[![likes](https://img.shields.io/pub/likes/fontresoft?logo=dart&color=red)](https://pub.dev/packages/fontresoft/score)
+<a href="https://github.com/kenresoft/fontresoft">![Star on Github](https://img.shields.io/github/stars/kenresoft/fontresoft.svg?style=flat&logo=github&colorB=deeppink&label=stars)</a>
+<a href="https://github.com/Solido/awesome-flutter">![Awesome Flutter](https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square)</a>
+<a href="https://opensource.org/license/bsd-3-clause">![License: BSD](https://img.shields.io/badge/license-BSD_3--Clause-teal.svg)</a>
 
-Currently 9 font families are defined in this library
+FontResoft is a comprehensive Flutter font package curated to provide developers with 
+a diverse selection of beautiful fonts for building visually appealing and engaging Flutter applications. 
+With a wide range of font families and weights readily available, 
+FontResoft simplifies the process of integrating custom typography into Flutter projects.
 
-1. inconsolata
-2. inter
-3. lato
-4. oswald
-5. poppins
-6. quicksand
-7. robotoCondensed
-8. shantellSans
-9. sourceSans
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Examples](#examples)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Getting started
+## Installation
 
-To use as a library, add the dependency in your pubspec.yaml file, thus:
+To use RiffSwitch in your Flutter project, add the following to your `pubspec.yaml` file:
 
 ```yaml
-fontresoft:
-    git:
-      url: git@github.com:kenresoft/fontresoft.git
-      ref: release
+dependencies:
+  fontresoft: ^0.0.3
 ```
+Then, run:
+
+```bash
+flutter pub get
+````
 
 ## Usage
+
+Import the package:
+
+```dart 
+import 'package:riff_switch/riff_switch.dart';
+```
 
 An example of how to use this in the main.dart file:
 
@@ -66,20 +82,57 @@ Text(
 )
 ```
 
+
+## Features
+
+- **Diverse Font Collection**: FontResoft offers a rich assortment of font families, including 
+Inconsolata, Inter, Lato, Oswald, Poppins, Quicksand, Roboto Condensed, ShantellSans, and SourceSansPro, 
+each meticulously selected to cater to various design preferences and project requirements.
+
+- **Easy Integration**: Integrating fonts from FontResoft into Flutter applications is straightforward, 
+thanks to the streamlined implementation process. Developers can effortlessly access and utilize these 
+fonts within their projects without the need for complex setup or configuration.
+
+- **Multiple Weights and Styles**: Each font family in FontResoft comes with multiple weights and styles, 
+empowering developers to enhance typographic diversity and achieve precise design specifications. 
+Whether it's bold, italic, light, medium, or extra-bold variants, 
+FontResoft offers comprehensive options to suit different design aesthetics.
+
+- **Local Font Loading**: Fonts provided by FontResoft are locally stored within the package, 
+eliminating the reliance on external networks for font retrieval. 
+This ensures consistent font availability and performance across various device environments, 
+without the risk of network-related issues impacting font rendering.
+
+
+Currently 9 font families are defined in this library
+
+1. [x] inconsolata
+2. [x] inter
+3. [x] lato
+4. [x] oswald
+5. [x] poppins
+6. [x] quicksand
+7. [x] robotoCondensed
+8. [x] shantellSans
+9. [x] sourceSans
+
+## Examples
+
+
 ## Screenshots
 
 <div>
-  <img height="500" width="50%" alt="Screenshot 1" src="example/screenshots/Screenshot_1.png" title="Screenshot 1">
+  <img height="500" width="220" alt="Screenshot 1" src="https://github.com/kenresoft/fontresoft/blob/master/screenshots/Screenshot_1.png?raw=true" title="Screenshot 1">
   <p>Screenshot 1</p>
 </div>
 
 <div>
-  <img height="500" width="50%" alt="Screenshot 2" src="example/screenshots/Screenshot_2.png" title="Screenshot 2">
+  <img height="500" width="220" alt="Screenshot 2" src="https://github.com/kenresoft/fontresoft/blob/master/screenshots/Screenshot_2.png?raw=true" title="Screenshot 2">
   <p>Screenshot 2</p>
 </div>
 
 <div>
-  <img height="500" width="50%" alt="Screenshot 3" src="example/screenshots/Screenshot_3.png" title="Screenshot 3">
+  <img height="500" width="220" alt="Screenshot 3" src="https://github.com/kenresoft/fontresoft/blob/master/screenshots/Screenshot_3.png?raw=true" title="Screenshot 3">
   <p>Screenshot 3</p>
 </div>
 
@@ -88,3 +141,17 @@ Text(
 In the future, we plan to provide support for additional fonts, making it even simpler for other developers to swiftly adopt our work. 
 If you think we should add other typefaces, please let us know. 
 We created this package to alleviate some of the burden that developers have when it comes to organizing the fonts by weights and styles.
+
+## Contributing
+
+- **Issues**: If you encounter any bugs, have feature requests, or want to suggest improvements, please open an issue on our GitHub repository. Provide as much detail as possible to help us understand the problem or idea better.
+
+- **Pull Requests**: If you'd like to contribute code changes, feel free to submit a pull request. Before doing so, make sure to fork the repository and create a new branch for your changes. Follow the existing coding style and guidelines, and write clear and concise commit messages. Your pull request will undergo review, and we'll work together to ensure the changes align with the project's goals.
+
+- **Feature Requests**: If you have ideas for new features or enhancements, please open an issue to discuss them. We value community feedback and want to ensure that new features align with the project's direction and objectives.
+
+- **Spread the Word**: Help us grow the FontResoft community by sharing the project with others. Whether through social media, blog posts, or word of mouth, spreading the word about FontResoft helps attract more users and contributors.
+
+## License
+
+This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICENSE) file for details.
