@@ -1,11 +1,8 @@
 name: fontresoft
-
-description: 'FontResoft is a flutter font package compiled and arranged by us for use in any flutter project.
-  It contains different beautiful fonts for building nice, eye-catchy flutter apps.'
-
-version: '0.0.1'
-publish_to: ''
-homepage: ''
+description: FontResoft is a flutter font package compiled and arranged by us for use in any flutter project.
+  It contains different beautiful fonts for building nice, eye-catchy flutter apps.
+version: 0.0.2
+homepage: https://github.com/kenresoft/fontresoft
 
 environment:
   sdk: '>=3.2.3 <4.0.0'
