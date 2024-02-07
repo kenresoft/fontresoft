@@ -4,29 +4,23 @@ import '../fontresoft.dart';
 
 const path = 'packages/fontresoft/';
 
+/// Extension on TextStyle to extract the font family name.
 extension TextStyleExtension on TextStyle {
+  /// Retrieves the font family name from a TextStyle object.
+  ///
+  /// Throws ArgumentError if the font family is unknown.
   String get getFontName {
-    switch (fontFamily) {
-      case '$path${FontResoft.inconsolata}':
-        return FontResoft.inconsolata;
-      case '$path${FontResoft.inter}':
-        return FontResoft.inter;
-      case '$path${FontResoft.lato}':
-        return FontResoft.lato;
-      case '$path${FontResoft.oswald}':
-        return FontResoft.oswald;
-      case '$path${FontResoft.poppins}':
-        return FontResoft.poppins;
-      case '$path${FontResoft.quicksand}':
-        return FontResoft.quicksand;
-      case '$path${FontResoft.robotoCondensed}':
-        return FontResoft.robotoCondensed;
-      case '$path${FontResoft.shantellSans}':
-        return FontResoft.shantellSans;
-      case '$path${FontResoft.sourceSansPro}':
-        return FontResoft.sourceSansPro;
-      default:
-        throw ArgumentError("Unknown font: $fontFamily");
-    }
+    return switch (fontFamily) {
+      '$path${FontResoft.inconsolata}' => FontResoft.inconsolata,
+      '$path${FontResoft.inter}' => FontResoft.inter,
+      '$path${FontResoft.lato}' => FontResoft.lato,
+      '$path${FontResoft.oswald}' => FontResoft.oswald,
+      '$path${FontResoft.poppins}' => FontResoft.poppins,
+      '$path${FontResoft.quicksand}' => FontResoft.quicksand,
+      '$path${FontResoft.robotoCondensed}' => FontResoft.robotoCondensed,
+      '$path${FontResoft.shantellSans}' => FontResoft.shantellSans,
+      '$path${FontResoft.sourceSansPro}' => FontResoft.sourceSansPro,
+      _ => throw ArgumentError("Unknown font: $fontFamily")
+    };
   }
 }
