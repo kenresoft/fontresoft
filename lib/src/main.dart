@@ -1,4 +1,4 @@
-/// fontresoft.dart
+/// main.dart
 ///
 /// A Flutter font package compiled and arranged by FontResoft for easy integration
 /// of custom typography into Flutter applications.
@@ -9,7 +9,7 @@
 /// Fonts are locally stored within the package, ensuring consistent availability
 /// and performance across different device environments.
 ///
-/// Authors: FontResoft
+/// Authors: Kenresoft (Kenneth Amadi).
 /// Version: 0.0.1
 /// Homepage: [GitHub Repo](https://github.com/kenresoft/fontresoft)
 
@@ -32,7 +32,7 @@ enum ResoftStyle {
 
 /// A utility class providing font family names for easy access.
 class FontResoft {
-  // Package name constant
+  /// Package name constant
   static const String package = 'fontresoft';
 
   //Fonts

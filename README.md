@@ -28,7 +28,7 @@ To use RiffSwitch in your Flutter project, add the following to your `pubspec.ya
 
 ```yaml
 dependencies:
-  fontresoft: ^0.0.3
+  fontresoft: ^0.0.2
 ```
 Then, run:
 
@@ -41,7 +41,7 @@ flutter pub get
 Import the package:
 
 ```dart 
-import 'package:riff_switch/riff_switch.dart';
+import 'package:fontresoft/main.dart';
 ```
 
 An example of how to use this in the main.dart file:
@@ -58,7 +58,7 @@ ThemeData(
 );
 ```
 
-An example of how to use in your dart code.
+Examples of how to use in your dart code.
 
 ```dart
 Text(
@@ -81,7 +81,133 @@ Text(
   ),
 )
 ```
+More examples from [main.dart](example/lib/main.dart)
 
+```dart
+import 'dart:math';
+
+import 'package:flutter/material.dart';
+import 'package:fontresoft/main.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        useMaterial3: true,
+        brightness: Brightness.dark,
+        colorSchemeSeed: Colors.purpleAccent,
+        fontFamily: FontResoft.poppins,
+        package: FontResoft.package,
+        highlightColor: Colors.transparent,
+        splashColor: Colors.transparent,
+      ),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  const MyHomePage({super.key, required this.title});
+
+  final String title;
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  final List<TextStyle> list = [
+    Font.inconsolata(),
+    Font.inter(),
+    Font.lato(),
+    Font.oswald(),
+    Font.poppins(),
+    Font.quicksand(),
+    Font.robotoCondensed(),
+    Font.shantellSans(),
+    Font.sourceSans(),
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('FontResoft Fonts'),
+        backgroundColor: Colors.black87,
+        centerTitle: true,
+      ),
+      body: Center(
+        child: ListView.builder(
+          itemCount: list.length,
+          itemBuilder: (context, index) {
+            var color = Color.fromRGBO(
+              Random().nextInt(255),
+              Random().nextInt(255),
+              Random().nextInt(255),
+              1,
+            );
+            return GestureDetector(
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => SecondPage(font: list[index]),
+                  ),
+                );
+              },
+              child: Card(
+                elevation: 0,
+                color: color.withOpacity(0.3),
+                margin: const EdgeInsets.all(16),
+                child: SizedBox(
+                  width: double.infinity,
+                  height: 100,
+                  child: Center(
+                    child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+                      Text(
+                        list[index].getFontName,
+                        style: list[index].copyWith(
+                          fontSize: 23,
+                          color: color.withOpacity(1),
+                        ),
+                      ),
+                      Text(
+                        '${list[index].fontFamily}',
+                        style: list[index].copyWith(
+                          fontSize: 20,
+                          color: color.withOpacity(0.5),
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                      Text(
+                        '$color',
+                        style: list[index].copyWith(
+                          fontSize: 16,
+                          color: color.withOpacity(0.5),
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                    ]),
+                  ),
+                ),
+              ),
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+```
 
 ## Features
 
