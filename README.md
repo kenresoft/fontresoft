@@ -28,7 +28,7 @@ To use RiffSwitch in your Flutter project, add the following to your `pubspec.ya
 
 ```yaml
 dependencies:
-  fontresoft: ^0.0.2
+  fontresoft: ^0.0.3
 ```
 Then, run:
 
@@ -41,7 +41,7 @@ flutter pub get
 Import the package:
 
 ```dart 
-import 'package:fontresoft/main.dart';
+import 'package:fontresoft/fontresoft.dart';
 ```
 
 An example of how to use this in the main.dart file:
@@ -87,7 +87,7 @@ More examples from [main.dart](example/lib/main.dart)
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:fontresoft/main.dart';
+import 'package:fontresoft/fontresoft.dart';
 
 void main() {
   runApp(const MyApp());
