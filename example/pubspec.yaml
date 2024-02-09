@@ -15,9 +15,10 @@ dependencies:
   cupertino_icons: ^1.0.6
 
   fontresoft:
-    git:
-      url: git@github.com:kenresoft/fontresoft.git
-      ref: release
+    path: '../'
+#    git:
+#      url: git@github.com:kenresoft/fontresoft.git
+#      ref: release
 
 dev_dependencies:
   flutter_test:
