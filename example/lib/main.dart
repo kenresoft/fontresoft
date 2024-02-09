@@ -15,12 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-
-      ///debugShowMaterialGrid: true,
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
         colorSchemeSeed: Colors.purpleAccent,
         fontFamily: FontResoft.poppins,
         package: FontResoft.package,
@@ -88,31 +86,33 @@ class _MyHomePageState extends State<MyHomePage> {
                   width: double.infinity,
                   height: 100,
                   child: Center(
-                    child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-                      Text(
-                        list[index].getFontName,
-                        style: list[index].copyWith(
-                          fontSize: 23,
-                          color: color.withOpacity(1),
-                        ),
-                      ),
-                      Text(
-                        '${list[index].fontFamily}',
-                        style: list[index].copyWith(
-                          fontSize: 20,
-                          color: color.withOpacity(0.5),
-                          fontStyle: FontStyle.italic,
-                        ),
-                      ),
-                      Text(
-                        '$color',
-                        style: list[index].copyWith(
-                          fontSize: 16,
-                          color: color.withOpacity(0.5),
-                          fontStyle: FontStyle.italic,
-                        ),
-                      ),
-                    ]),
+                    child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            list[index].getFontName,
+                            style: list[index].copyWith(
+                              fontSize: 23,
+                              color: color.withOpacity(1),
+                            ),
+                          ),
+                          Text(
+                            '${list[index].fontFamily}',
+                            style: list[index].copyWith(
+                              fontSize: 20,
+                              color: color.withOpacity(0.5),
+                              fontStyle: FontStyle.italic,
+                            ),
+                          ),
+                          Text(
+                            '$color',
+                            style: list[index].copyWith(
+                              fontSize: 16,
+                              color: color.withOpacity(0.5),
+                              fontStyle: FontStyle.italic,
+                            ),
+                          ),
+                        ]),
                   ),
                 ),
               ),
@@ -134,7 +134,8 @@ class SecondPage extends StatefulWidget {
 }
 
 class _SecondPageState extends State<SecondPage> {
-  static const String paragraph = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
+  static const String paragraph =
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
       'Nullam vel quam ac elit consequat laoreet. Sed ac odio vel ipsum fermentum fringilla. '
       'Vivamus facilisis erat vel lacus varius, vel consectetur libero dignissim. '
       'Integer vitae lectus eu tortor congue dictum. Proin bibendum, tortor at fringilla cursus, '
@@ -165,7 +166,9 @@ class _SecondPageState extends State<SecondPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(widget.font.getFontName, style: widget.font), backgroundColor: Colors.black87),
+      appBar: AppBar(
+          title: Text(widget.font.getFontName, style: widget.font),
+          backgroundColor: Colors.black87),
       body: SizedBox(
         child: Column(
           children: [
@@ -178,12 +181,18 @@ class _SecondPageState extends State<SecondPage> {
             ),
             const Divider(color: Colors.white24),
             Expanded(
-              child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
-                boldStyleButton(),
-                italicStyleButton(),
-                OutlinedButton(onPressed: () => increaseFont(), child: const Icon(Icons.plus_one)),
-                OutlinedButton(onPressed: () => decreaseFont(), child: const Icon(Icons.exposure_minus_1)),
-              ]),
+              child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  children: [
+                    boldStyleButton(),
+                    italicStyleButton(),
+                    OutlinedButton(
+                        onPressed: () => increaseFont(),
+                        child: const Icon(Icons.plus_one)),
+                    OutlinedButton(
+                        onPressed: () => decreaseFont(),
+                        child: const Icon(Icons.exposure_minus_1)),
+                  ]),
             ),
           ],
         ),

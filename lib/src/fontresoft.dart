@@ -1,4 +1,4 @@
-/// main.dart
+/// fontresoft.dart
 ///
 /// A Flutter font package compiled and arranged by FontResoft for easy integration
 /// of custom typography into Flutter applications.
@@ -10,7 +10,7 @@
 /// and performance across different device environments.
 ///
 /// Authors: Kenresoft (Kenneth Amadi).
-/// Version: 0.0.1
+/// Version: 0.0.2
 /// Homepage: [GitHub Repo](https://github.com/kenresoft/fontresoft)
 
 library fontresoft;
@@ -53,71 +53,89 @@ class Font {
   ///
   /// Optionally accepts a [style] parameter for additional text style customization.
   static TextStyle inconsolata({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: FontResoft.inconsolata, package: FontResoft.package);
-    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.inconsolata, package: FontResoft.package);
+    var st = style?.copyWith(
+        fontFamily: FontResoft.inconsolata, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(
+        fontFamily: FontResoft.inconsolata, package: FontResoft.package);
   }
 
   /// Returns a TextStyle object with the Inter font family applied.
   ///
   /// Optionally accepts a [style] parameter for additional text style customization.
   static TextStyle inter({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: FontResoft.inter, package: FontResoft.package);
-    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.inter, package: FontResoft.package);
+    var st = style?.copyWith(
+        fontFamily: FontResoft.inter, package: FontResoft.package);
+    return st ??= const TextStyle()
+        .copyWith(fontFamily: FontResoft.inter, package: FontResoft.package);
   }
 
   /// Returns a TextStyle object with the Lato font family applied.
   ///
   /// Optionally accepts a [style] parameter for additional text style customization.
   static TextStyle lato({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: FontResoft.lato, package: FontResoft.package);
-    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.lato, package: FontResoft.package);
+    var st = style?.copyWith(
+        fontFamily: FontResoft.lato, package: FontResoft.package);
+    return st ??= const TextStyle()
+        .copyWith(fontFamily: FontResoft.lato, package: FontResoft.package);
   }
 
   /// Returns a TextStyle object with the Oswald font family applied.
   ///
   /// Optionally accepts a [style] parameter for additional text style customization.
   static TextStyle oswald({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: FontResoft.oswald, package: FontResoft.package);
-    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.oswald, package: FontResoft.package);
+    var st = style?.copyWith(
+        fontFamily: FontResoft.oswald, package: FontResoft.package);
+    return st ??= const TextStyle()
+        .copyWith(fontFamily: FontResoft.oswald, package: FontResoft.package);
   }
 
   /// Returns a TextStyle object with the Poppins font family applied.
   ///
   /// Optionally accepts a [style] parameter for additional text style customization.
   static TextStyle poppins({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: FontResoft.poppins, package: FontResoft.package);
-    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.poppins, package: FontResoft.package);
+    var st = style?.copyWith(
+        fontFamily: FontResoft.poppins, package: FontResoft.package);
+    return st ??= const TextStyle()
+        .copyWith(fontFamily: FontResoft.poppins, package: FontResoft.package);
   }
 
   /// Returns a TextStyle object with the Quicksand font family applied.
   ///
   /// Optionally accepts a [style] parameter for additional text style customization.
   static TextStyle quicksand({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: FontResoft.quicksand, package: FontResoft.package);
-    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.quicksand, package: FontResoft.package);
+    var st = style?.copyWith(
+        fontFamily: FontResoft.quicksand, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(
+        fontFamily: FontResoft.quicksand, package: FontResoft.package);
   }
 
   /// Returns a TextStyle object with the Roboto Condensed font family applied.
   ///
   /// Optionally accepts a [style] parameter for additional text style customization.
   static TextStyle robotoCondensed({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: FontResoft.robotoCondensed, package: FontResoft.package);
-    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.robotoCondensed, package: FontResoft.package);
+    var st = style?.copyWith(
+        fontFamily: FontResoft.robotoCondensed, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(
+        fontFamily: FontResoft.robotoCondensed, package: FontResoft.package);
   }
 
   /// Returns a TextStyle object with the Shantell Sans font family applied.
   ///
   /// Optionally accepts a [style] parameter for additional text style customization.
   static TextStyle shantellSans({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: FontResoft.shantellSans, package: FontResoft.package);
-    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.shantellSans, package: FontResoft.package);
+    var st = style?.copyWith(
+        fontFamily: FontResoft.shantellSans, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(
+        fontFamily: FontResoft.shantellSans, package: FontResoft.package);
   }
 
   /// Returns a TextStyle object with the Source Sans font family applied.
   ///
   /// Optionally accepts a [style] parameter for additional text style customization.
   static TextStyle sourceSans({TextStyle? style}) {
-    var st = style?.copyWith(fontFamily: FontResoft.sourceSansPro, package: FontResoft.package);
-    return st ??= const TextStyle().copyWith(fontFamily: FontResoft.sourceSansPro, package: FontResoft.package);
+    var st = style?.copyWith(
+        fontFamily: FontResoft.sourceSansPro, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(
+        fontFamily: FontResoft.sourceSansPro, package: FontResoft.package);
   }
 }
