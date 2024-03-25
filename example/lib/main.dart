@@ -50,6 +50,8 @@ class _MyHomePageState extends State<MyHomePage> {
     Font.robotoCondensed(),
     Font.shantellSans(),
     Font.sourceSans(),
+    Font.sFProDisplay(),
+    Font.sFProText(),
   ];
 
   @override
