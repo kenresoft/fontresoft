@@ -1,8 +1,18 @@
 # Changelog
 
-## [0.0.1] - 2024-02-07
+## [0.0.4] - 2024-03-23
 
-* Initial release.
+**Added**
+
+- Added SFProDisplay font.
+- Added SFProText font.
+
+## [0.0.3] - 2024-02-09
+
+**Changes**
+
+* Applied dart fix to code
+* Updated `fontresoft.dart`
 
 ## [0.0.2] - 2024-02-07
 
@@ -11,9 +21,6 @@
 * modified `README.md` and `pubspec.yaml` file
 * Updated `fontresoft.dart`
 
-## [0.0.3] - 2024-02-09
+## [0.0.1] - 2024-02-07
 
-**Changes**
-
-* Applied dart fix to code
-* Updated `fontresoft.dart`
+* Initial release.
