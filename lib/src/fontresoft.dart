@@ -45,6 +45,8 @@ class FontResoft {
   static const String inter = "Inter";
   static const String inconsolata = "Inconsolata";
   static const String lato = "Lato";
+  static const String sFProDisplay = "SFProDisplay";
+  static const String sFProText = "SFProText";
 }
 
 /// A utility class for applying text styles with specific font families.
@@ -137,5 +139,25 @@ class Font {
         fontFamily: FontResoft.sourceSansPro, package: FontResoft.package);
     return st ??= const TextStyle().copyWith(
         fontFamily: FontResoft.sourceSansPro, package: FontResoft.package);
+  }
+
+  /// Returns a TextStyle object with the SF Pro Display font family applied.
+  ///
+  /// Optionally accepts a [style] parameter for additional text style customization.
+  static TextStyle sFProDisplay({TextStyle? style}) {
+    var st = style?.copyWith(
+        fontFamily: FontResoft.sFProDisplay, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(
+        fontFamily: FontResoft.sFProDisplay, package: FontResoft.package);
+  }
+
+  /// Returns a TextStyle object with the SF Pro Text font family applied.
+  ///
+  /// Optionally accepts a [style] parameter for additional text style customization.
+  static TextStyle sFProText({TextStyle? style}) {
+    var st = style?.copyWith(
+        fontFamily: FontResoft.sFProText, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(
+        fontFamily: FontResoft.sFProText, package: FontResoft.package);
   }
 }
