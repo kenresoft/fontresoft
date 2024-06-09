@@ -20,6 +20,8 @@ extension TextStyleExtension on TextStyle {
       '$path${FontResoft.robotoCondensed}' => FontResoft.robotoCondensed,
       '$path${FontResoft.shantellSans}' => FontResoft.shantellSans,
       '$path${FontResoft.sourceSansPro}' => FontResoft.sourceSansPro,
+      '$path${FontResoft.sFProDisplay}' => FontResoft.sFProDisplay,
+      '$path${FontResoft.sFProText}' => FontResoft.sFProText,
       _ => throw ArgumentError("Unknown font: $fontFamily")
     };
   }

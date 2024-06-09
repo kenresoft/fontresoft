@@ -1,7 +1,7 @@
 name: fontresoft
 description: FontResoft is a flutter font package compiled and arranged by us for use in any flutter project.
   It contains different beautiful fonts for building nice, eye-catchy flutter apps.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/kenresoft/fontresoft
 
 environment:
@@ -238,3 +238,53 @@ flutter:
           weight: 600
           style: italic
 
+    # SFProDisplay
+    - family: SFProDisplay
+      fonts:
+        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Black.otf
+          weight: 900
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Bold.otf
+          weight: 700
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Heavy.otf
+          weight: 800
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Light.otf
+          weight: 300
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Medium.otf
+          weight: 500
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Regular.otf
+          weight: 400
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Semibold.otf
+          weight: 600
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Thin.otf
+          weight: 100
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Ultralight.otf
+          weight: 200
+          style: normal
+
+    # SFProText
+    - family: SFProText
+      fonts:
+        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Black.otf
+          weight: 900
+        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Bold.otf
+          weight: 700
+        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Heavy.otf
+          weight: 800
+        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Light.otf
+          weight: 300
+        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Medium.otf
+          weight: 500
+        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Regular.otf
+          weight: 400
+        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Semibold.otf
+          weight: 600
+        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Thin.otf
+          weight: 100

@@ -28,7 +28,7 @@ To use RiffSwitch in your Flutter project, add the following to your `pubspec.ya
 
 ```yaml
 dependencies:
-  fontresoft: ^0.0.3
+  fontresoft: ^0.0.5
 ```
 Then, run:
 
@@ -136,6 +136,9 @@ class _MyHomePageState extends State<MyHomePage> {
     Font.robotoCondensed(),
     Font.shantellSans(),
     Font.sourceSans(),
+    Font.sFProDisplay(),
+    Font.sFProText(),
+    Font.comfortaa(),
   ];
 
   @override
@@ -230,7 +233,7 @@ This ensures consistent font availability and performance across various device 
 without the risk of network-related issues impacting font rendering.
 
 
-Currently 9 font families are defined in this library
+Currently 12 font families are defined in this library
 
 1. [x] inconsolata
 2. [x] inter
@@ -241,6 +244,9 @@ Currently 9 font families are defined in this library
 7. [x] robotoCondensed
 8. [x] shantellSans
 9. [x] sourceSans
+10. [x] sFProDisplay
+11. [x] sFProText
+12. [x] comfortaa
 
 ## Examples
 
