@@ -1,7 +1,7 @@
 name: fontresoft
 description: FontResoft is a flutter font package compiled and arranged by us for use in any flutter project.
   It contains different beautiful fonts for building nice, eye-catchy flutter apps.
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/kenresoft/fontresoft
 
 environment:
@@ -11,11 +11,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  yaml_writer: ^2.0.0
+  yaml: 3.1.2
+  path: 1.9.0
+  args: ^2.5.0
+  ansi_styles: ^0.3.2+1
+  io: ^1.0.4
+  prompts: ^2.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.1
+  flutter_lints: ^4.0.0
+
+executables:
+  fontresoft: fontresoft
 
 flutter:
 
@@ -241,50 +251,72 @@ flutter:
     # SFProDisplay
     - family: SFProDisplay
       fonts:
-        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Black.otf
+        - asset: packages/fontresoft/fonts/SFProDisplay/SFProDisplay-Black.otf
           weight: 900
           style: normal
-        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Bold.otf
+        - asset: packages/fontresoft/fonts/SFProDisplay/SFProDisplay-Bold.otf
           weight: 700
           style: normal
-        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Heavy.otf
+        - asset: packages/fontresoft/fonts/SFProDisplay/SFProDisplay-Heavy.otf
           weight: 800
           style: normal
-        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Light.otf
+        - asset: packages/fontresoft/fonts/SFProDisplay/SFProDisplay-Light.otf
           weight: 300
           style: normal
-        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Medium.otf
+        - asset: packages/fontresoft/fonts/SFProDisplay/SFProDisplay-Medium.otf
           weight: 500
           style: normal
-        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Regular.otf
+        - asset: packages/fontresoft/fonts/SFProDisplay/SFProDisplay-Regular.otf
           weight: 400
           style: normal
-        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Semibold.otf
+        - asset: packages/fontresoft/fonts/SFProDisplay/SFProDisplay-Semibold.otf
           weight: 600
           style: normal
-        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Thin.otf
+        - asset: packages/fontresoft/fonts/SFProDisplay/SFProDisplay-Thin.otf
           weight: 100
           style: normal
-        - asset: packages/fontresoft/fonts/SFProDisplay/SF-Pro-Display-Ultralight.otf
+        - asset: packages/fontresoft/fonts/SFProDisplay/SFProDisplay-Ultralight.otf
           weight: 200
           style: normal
 
     # SFProText
     - family: SFProText
       fonts:
-        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Black.otf
+        - asset: packages/fontresoft/fonts/SFProText/SFProText-Black.otf
           weight: 900
-        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Bold.otf
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProText/SFProText-Bold.otf
           weight: 700
-        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Heavy.otf
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProText/SFProText-Heavy.otf
           weight: 800
-        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Light.otf
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProText/SFProText-Light.otf
           weight: 300
-        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Medium.otf
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProText/SFProText-Medium.otf
           weight: 500
-        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Regular.otf
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProText/SFProText-Regular.otf
           weight: 400
-        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Semibold.otf
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProText/SFProText-Semibold.otf
           weight: 600
-        - asset: packages/fontresoft/fonts/SFProText/SF-Pro-Text-Thin.otf
+          style: normal
+        - asset: packages/fontresoft/fonts/SFProText/SFProText-Thin.otf
           weight: 100
+          style: normal
+
+    # Comfortaa
+    - family: Comfortaa
+      fonts:
+        - asset: packages/fontresoft/fonts/Comfortaa/static/Comfortaa-Bold.ttf
+          weight: 700
+        - asset: packages/fontresoft/fonts/Comfortaa/static/Comfortaa-Light.ttf
+          weight: 300
+        - asset: packages/fontresoft/fonts/Comfortaa/static/Comfortaa-Medium.ttf
+          weight: 500
+        - asset: packages/fontresoft/fonts/Comfortaa/static/Comfortaa-Regular.ttf
+          weight: 400
+        - asset: packages/fontresoft/fonts/Comfortaa/static/Comfortaa-SemiBold.ttf
+          weight: 600
