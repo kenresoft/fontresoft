@@ -31,6 +31,46 @@ enum ResoftStyle {
 }
 
 /// A utility class providing font family names for easy access.
+///
+/// An example of how to use this in the main.dart file:
+///
+/// ```dart
+/// ThemeData(
+///   useMaterial3: true,
+///   brightness: Brightness.light,
+///   colorSchemeSeed: Colors.purpleAccent,
+///   fontFamily: FontResoft.poppins,
+///   package: FontResoft.package,
+///   highlightColor: Colors.transparent,
+///   splashColor: Colors.transparent,
+/// );
+/// ```
+///
+/// Examples of how to use in your dart code.
+///
+/// `Use case 1:`
+/// ```dart
+/// Text(
+///   'Sample Text',
+///    style: Font.sourceSans().copyWith(
+///      fontSize: 23,
+///      color: color.withOpacity(1),
+///   ),
+/// );
+/// ```
+///
+/// `Use case 2:`
+/// ```dart
+/// Text(
+///   Font.sourceSans().getFontName,
+///   style: Font.sourceSans(
+///     style: TextStyle(
+///       fontSize: 23,
+///       color: color.withOpacity(1),
+///     ),
+///   ),
+/// );
+///
 class FontResoft {
   /// Package name constant
   static const String package = 'fontresoft';
