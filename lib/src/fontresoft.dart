@@ -47,6 +47,7 @@ class FontResoft {
   static const String lato = "Lato";
   static const String sFProDisplay = "SFProDisplay";
   static const String sFProText = "SFProText";
+  static const String comfortaa = "Comfortaa";
 }
 
 /// A utility class for applying text styles with specific font families.
@@ -159,5 +160,15 @@ class Font {
         fontFamily: FontResoft.sFProText, package: FontResoft.package);
     return st ??= const TextStyle().copyWith(
         fontFamily: FontResoft.sFProText, package: FontResoft.package);
+  }
+
+  /// Returns a TextStyle object with the Comfortaa font family applied.
+  ///
+  /// Optionally accepts a [style] parameter for additional text style customization.
+  static TextStyle comfortaa({TextStyle? style}) {
+    var st = style?.copyWith(
+        fontFamily: FontResoft.comfortaa, package: FontResoft.package);
+    return st ??= const TextStyle().copyWith(
+        fontFamily: FontResoft.comfortaa, package: FontResoft.package);
   }
 }

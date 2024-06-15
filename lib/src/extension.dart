@@ -22,6 +22,7 @@ extension TextStyleExtension on TextStyle {
       '$path${FontResoft.sourceSansPro}' => FontResoft.sourceSansPro,
       '$path${FontResoft.sFProDisplay}' => FontResoft.sFProDisplay,
       '$path${FontResoft.sFProText}' => FontResoft.sFProText,
+      '$path${FontResoft.comfortaa}' => FontResoft.comfortaa,
       _ => throw ArgumentError("Unknown font: $fontFamily")
     };
   }
