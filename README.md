@@ -11,7 +11,8 @@
 FontResoft is a comprehensive Flutter font package curated to provide developers with 
 a diverse selection of beautiful fonts for building visually appealing and engaging Flutter applications. 
 With a wide range of font families and weights readily available, 
-FontResoft simplifies the process of integrating custom typography into Flutter projects.
+FontResoft simplifies the process of integrating custom typography into Flutter projects,
+offering a variety of beautiful fonts without the need for network connectivity.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -24,7 +25,7 @@ FontResoft simplifies the process of integrating custom typography into Flutter 
 
 ## Installation
 
-To use RiffSwitch in your Flutter project, add the following to your `pubspec.yaml` file:
+To use fontresoft in your Flutter project, add the following to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
