@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.10-beta.1] - 2024-06-15
+
+**Added**
+
+- Added CLI commands to specify which fonts to include in your build ([#70](https://github.com/kenresoft/fontresoft/pull/70))
+- Rename SF-Pro-Text to SFProText ([#68](https://github.com/kenresoft/fontresoft/pull/68))
+- Rename SF-Pro-Display to SFProDisplay ([#67](https://github.com/kenresoft/fontresoft/pull/67))
+- Minor fixes and improvements 
+
 ## [0.0.5] - 2024-03-25
 
 **Added**
