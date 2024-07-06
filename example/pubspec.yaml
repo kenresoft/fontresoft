@@ -12,8 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.6
+  cupertino_icons: ^1.0.8
 
+#  fontresoft: ^0.1.10-beta.1
   fontresoft:
     path: '../'
 #    git:
@@ -29,3 +30,8 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
+  assets:
+    - assets/fonts/
+
+### Add FONTS Here
